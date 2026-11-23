@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "prisma generate && next build",
+  "framework": "nextjs",
+  "functions": {
+    "app/**/*.ts": {
+      "maxDuration": 30
+    }
+  }
+}
